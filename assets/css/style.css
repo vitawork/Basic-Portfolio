@@ -5,22 +5,22 @@
   margin-right: 0%;
 }
 
+body {
+  margin: 0%;
+}
+
 #div_header {
   background-color: #ffffff;
   border-bottom: solid 3px #cccccc;
   height: 80px;
   margin-top: 0px;
   margin-bottom: 35px;
-  }
+  width: 100%;
+}
 
 #div_links_header {
   float: right;
-   margin-top: 28px;
-
-}
-
-header {
-  position: relative;
+  margin-top: 28px;
 }
 
 #h1_1th {
@@ -28,8 +28,6 @@ header {
   background-color: #4aaaa5;
   color: #ffffff;
   float: left;
-  /* position: absolute;
-  top: 0px; */
   height: 60px;
   margin: 0 auto;
   width: 30%;
@@ -50,20 +48,22 @@ footer {
   background-color: #666666;
   border-top: solid 7px #4aaaa5;
   text-align: center;
-  height: 55px;
+  height: 25px;
+  padding-top: 38px;
   position: fixed;
   bottom: 0%;
   width: 100%;
-  color:  #b9b7b7;
-  }
+  color: #b9b7b7;
+}
 
 #central_box {
   background-color: #ffffff;
   border-color: #dddddd;
   border: solid 2px #d8d7d7;
+  margin-bottom: 5000px;
 }
 
-img {
+#picture {
   width: 18%;
   height: 18%;
   float: left;
@@ -82,16 +82,82 @@ header,
 }
 
 section {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 29px;
+  margin-right: 29px;
   padding-bottom: 2%;
 }
 
-a{
-    padding: 10px;
-    text-decoration-line: none;
+a {
+  padding: 10px;
+  text-decoration-line: none;
 }
 
-.left_border{
-    border-right: solid 1px #cccccc;
+.left_border {
+  border-right: solid 1px #cccccc;
+}
+
+.div_portfolio {
+  float: left;
+  position: relative;
+  width: 375px;
+  height: 350px;
+  margin: 4%;
+}
+
+.img_portfolio {
+  width: 375px;
+  margin: 0px;
+  height: 350px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+h2 {
+  width: 375px;
+  height: 70px;
+  background-color: #4aaaa5;
+  text-align: center;
+  line-height: 55px;
+  position: absolute;
+  left: 0px;
+  bottom: 3px;
+  color: #ffffff;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#p_final {
+  margin-bottom: 60px;
+}
+
+input {
+  width: 96%;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+textarea {
+  width: 96%;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+#submit {
+  width: 15%;
+  background-color: #4aaaa5;
+  color: white;
+}
+
+#submit:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+a:hover {
+  color: #4aaaa5;
 }
